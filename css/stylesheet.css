@@ -27,7 +27,7 @@ a:active {color:hotpink;}
 
 .MenuFontColor {    
     color :cadetblue;
-    font-size : 14px;
+    font-size : 16px;
    /* font-family:Times New Roman; */
     font-family: cursive;
     
@@ -241,7 +241,7 @@ li {
 .Sub_TitleBox {
     width:850px;
     height:30px;
-    margin-left:50px;
+    margin-left:70px;
     padding:5px;
     text-align:left;
     font-size:32px;
@@ -253,7 +253,7 @@ li {
 .Sub_DescBox {
     width:850px;
     height:auto;
-    margin-left:50px;
+    margin-left:70px;
     padding:5px;
     color :azure;
     font-size:14px;
