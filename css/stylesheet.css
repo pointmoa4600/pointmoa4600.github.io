@@ -1,129 +1,19 @@
 /* CSS for Common ******************************************************/
 
-#mainContainer {
-    width:810px;
+.mainContainer {
+    width:100%;
     height:100%;
     margin: auto; 
-    padding:1%;
-}
-
-#menuContainer {
-    width:785px;
-    height:200px; 
-    margin: auto;
-    padding:1%;  
     text-align:center;
-    display:inline-block;
-
-}
-
-#titleBox {
-    width:785px;
-    height:150px;
-    padding-left:0px;
-    font-size: 72px;
-    font-weight:bolder; 
-    font-family:Times New Roman, Georgia, Serif; 
-    color:darkslategrey; 
-    text-align:center; 
-    float:left;
-}
-
-#menuBox {
-    width:785px;
-    height:30px;
-    padding-left:0px;
-    text-align:center;
-    vertical-align: middle; 
-    float:left;
-}
-
-/*
-
-#menubox {
-    width:250px; 
-    height:auto;
-    text-align:left; 
-    font-family: Times New Roman, Georgia, Serif; 
-    float:left;
-}
-*/
-
-#bottomContainer {
-    width:775px;
-    height:200px;
-    color:darkslategrey; 
-    text-align: center;
-    margin: auto;
     padding:1%;
+    background-size : cover;
+    
 }
 
-hr {
-    width:800px;
-    text-align: left;
-    margin-left: 0;
-    color :#006699;
-}
-
-#bar {
-    width:790px; 
-    height:2px;
-    padding-left:10px;
-    background-color:#a3c2c2;
-}
-
-/*
-ul {
-    background-color:aqua;
-    width:790px;
-    padding-left:10px;
-} 
-.mainbackground {      
-    background-image:url('https://static.pexels.com/photos/27534/pexels-photo-large.jpg');
-    width:800px; 
-    height:380px; 
-    height:380px; 
-    cursor:pointer;
-}
-
-.cities { 
-    margin:20px;
-    font-family:fantasy;
-    color:floralwhite;
-    font-size : 60px;
-    text-decoration: none;
-    padding:20px; 
-    width:30%;
-    height:100px;
-    float:right;
-}
-
-p {font-family:cursive;font-size : 12px;}
-
-P::first-letter{
-    font-size:200%;
-    color:blue;
-    font-style:italic;
-}
-
-
-li {
-    display:inline;
-    margin:100px;
-    margin-left: 0px;
-    font-family:Times New Roman;
-    font-weight: bold;
-    color:darkgray;
-    font-size:12px;
-}
-
-*/
-
-/* CSS for Main page **************************************************/
-
+/*******CSS for Decoration.START*******/
 
 div div div a {color : white;}
-div div div div a {color : coral;}
+
 
 a {text-decoration: none;}
 
@@ -136,175 +26,421 @@ a:active {color:hotpink;}
 /*li:hover {color:hotpink;} */
 
 .MenuFontColor {    
-    color : darkgray;
-    font-size : 12px;
-    font-family:Times New Roman;
+    color :cadetblue;
+    font-size : 14px;
+   /* font-family:Times New Roman; */
+    font-family: cursive;
+    
 }
 
 .ButtonFontColor {
     color : white;
     font-size : 14px;        
     font-family:Times New Roman;
+    vertical-align: middle;
 } 
 
-#Main_OneBox1 {
+.frame {
+    border:5px solid darkslategray;
+}
+
+.border_style1 {
+    border: 5px solid white;
+    /* border: 10px dotted darkcyan; 
+	box-shadow: inset 0 -3px 0 0 darkcyan, 0 3px 0 0 darkcyan; */
+}
+
+.hr_style1 {
+    width:990px; 
+    margin:auto;
+    height: 6px;
+	background: url(http://ibrahimjabbari.com/english/images/hr-12.png) repeat-x 0 0;
+    border: 0;    
+}
+
+.hr_style2 {
+    width:990px; 
+    margin:auto;
+    border-top: 1px solid #8c8b8b; 
+}
+
+.hr_style3 {
+    width:990px; 
+    margin:auto;
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+}
+
+/*******CSS for Decoration.END*******/
+
+
+/*******CSS for Header & Footer.START*******/
+
+.menuContainer {
+    width:985px;
+    height:200px; 
+    margin: auto;
+    padding:1%;  
+    text-align:center;
+    display:inline-block;
+}
+
+#dotted {
+    padding: 2.25em 1.6875em;
+    background-image: -webkit-repeating-radial-gradient(center center, rgba(0,0,0,.2), rgba(0,0,0,.2) 1px, transparent 1px, transparent 100%);
+    background-image: -moz-repeating-radial-gradient(center center, rgba(0,0,0,.2), rgba(0,0,0,.2) 1px, transparent 1px, transparent 100%);
+    background-image: -ms-repeating-radial-gradient(center center, rgba(0,0,0,.2), rgba(0,0,0,.2) 1px, transparent 1px, transparent 100%);
+    background-image: repeating-radial-gradient(center center, rgba(0,0,0,.2), rgba(0,0,0,.2) 1px, transparent 1px, transparent 100%);
+    -webkit-background-size: 3px 3px;
+    -moz-background-size: 3px 3px;
+    background-size: 3px 3px;
+  }
+
+.titleBox {
+    width:985px;
+    height:150px;
+    padding-left:0px;
+    margin:auto;
+    font-size: 72px;
+    font-weight:bolder; 
+    /*  font-family:Times New Roman, Georgia, Serif;  */
+    font-family: 'Kaushan Script', cursive;
+    color:darkslategrey; 
+    text-align:center; 
+    float:left;
+}
+
+.menuBox {
+    width:985px;
+    height:50px;
+    padding-left:0px;
+    text-align:center;
+    vertical-align: middle; 
+    float:left;  
+}
+
+li {
+    display:inline;
+    margin:100px;
+    margin-left: 0px;
+    margin-top:0px;
+    font-family:Times New Roman;
+    font-weight: bold;
+    color:darkgray;
+    font-size:12px;
+}
+.bottomContainer {
+    width:985px;
+    height:200px;
+    color:darkslategrey; 
+    margin: auto;
+    padding:1%;
+}
+
+
+/*******CSS for Header & Footer.END******************************************************/
+
+
+
+
+/*******CSS for Main page.START*******/
+
+.Main_OneBox {
+    width:1000px;
+    height:285px;
+    margin:auto;
+}
+
+#Color_cadetblue {
     background-color:cadetblue;
-    width:800px;
-    height:269px;
 }
 
-#Main_OneBox2 {
+#Color_coral {
     background-color:coral;
-    width:800px;
-    height:270px;
 }
 
-#Main_OneBox3 {
+#Color_darkolivegreen {
     background-color:darkolivegreen;
-    width:800px;
-    height:285px;
 }
 
-#Main_OneBox4 {
+#Color_brown {
     background-color:brown;
-    width:800px;
-    height:285px;
 }
 
-#Main_OneBox5 {
+#Color_blanchedalmond {
     background-color:blanchedalmond;
-    width:800px;
-    height:285px;
 }
 
-#Main_TwoBox1 {
-    width : 380px;
-    height : 280px;
+#Image_OldTown {
+    background-image: url(../image/BackImage_SanOldTown.jpg);
+    background-repeat: no-repeat;
+}
+
+#Image_Zoo {
+    background-image: url(../image/BackImage_SanZoo.jpg);
+    background-repeat: no-repeat;
+}
+
+#Image_LaJolla {
+    background-image: url(../image/BackImage_SanLaJolla.jpg);
+    background-repeat: no-repeat;
+}
+
+#Image_Gettyvilla {
+    background-image: url(../image/BackImage_LaGettyVilla.jpg);
+    background-repeat: no-repeat;
+}
+
+#Image_Griffith {
+    background-image: url(../image/BackImage_LaGriffith.jpg);
+    background-repeat: no-repeat;
+}
+
+
+.Main_LeftBox {
+    width : 480px;
+    height : 270px;
     float : left;
-    margin-left : 0px;
+    margin : 0px;`````
 }
 
-#Main_TwoBox2 {
-    width : 360px;
+.Main_RightBox {
+    width : 460px;
     height : 220px;
-    float : left;
     margin : 20px;
     padding: 10px;
     font-family : Times New Romans; 
     font-size: 18px;
+    text-align: left;
+    float : left;
+    display:inline-block;
+}
+/*******CSS for Main page.END******************************************************/
+
+
+
+/*******CSS for Sub pages.START*******/
+
+.SubContainer {
+    width:1000px;
+    height:auto;
+    margin:auto;
+    text-align: center;
+    display : inline-block;
+}
+
+.Sub_OneBox {
+    width:980px;
+    height:auto;
+    padding-top : 30px;   
+    display : inline-block;
+    background-color : blue;
+}
+
+
+.Sub_TitleBox {
+    width:850px;
+    height:30px;
+    margin-left:50px;
+    padding:5px;
+    text-align:left;
+    font-size:32px;
+    font-weight: bold;
+    font-family:Times New Romans; 
+    color:azure;
+}
+
+.Sub_DescBox {
+    width:850px;
+    height:auto;
+    margin-left:50px;
+    padding:5px;
+    color :azure;
+    font-size:14px;
+    font-family:Times New Romans; 
+    text-align:left;
+}
+
+
+.Sub_OneBox_Right{
+    width : 440px;
+    height : auto;
+    margin : auto;
+    padding: 10px;
+    font-family : Times New Romans; 
+    font-size: 18px;
+    float : left;
+}
+
+.Sub_TitleBox_Right {
+    width:400px;
+    height:30px;
+    margin:auto;
+    padding:5px;
+    text-align:left;
+    font-size:32px;
+    font-weight: bold;
+    font-family:Times New Romans; 
+    color:azure;
+}
+
+.Sub_DescBox_Right {
+    width:400px;
+    height:auto;
+    margin:auto;
+    padding:5px;
+    font-size:14px;
+    font-family:Times New Romans; 
+    text-align:left;
+    color:azure;
+}
+
+.Sub_OneBox_Left {
+    width : 480px;
+    height : auto;
+    float : left;
+    margin-left : 0px;
+}
+
+
+.Button {
+    display: inline-block;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    position: relative;
+    cursor: pointer;
+    top: 0;
+    padding: 0 22px;
+    border: 2px solid rgb(255,255,255);
+    font: normal normal bold 14px/30px Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-transform: uppercase;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    background: #FFAE00;
+    width :150px;
+    height:30px;
+}
+
+.Button:hover {
+    color: #FFAE00;
+    background: #ffffff;
+}
+
+
+/* wave design */
+#BottomPattern {
+    background: linear-gradient(#ffffff 50%, rgba(255,255,255,0) 0) 0 0,
+radial-gradient(circle closest-side, #FFFFFF 53%, rgba(255,255,255,0) 0) 0 0,
+radial-gradient(circle closest-side, #FFFFFF 50%, rgba(255,255,255,0) 0) 55px 0 #48B;
+background-size:110px 200px;
+background-repeat:repeat-x;
+    width:980px;
+    height:200px;
+}
+
+/*******CSS for Sub pages.END******************************************************/
+
+
+
+
+/* extra page ===========*/
+.enjoy-css {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  width: 800px;
+  height: auto;
+  border: none;
+  font: normal 100%/normal Arial, Helvetica, sans-serif;
+  color: rgb(255, 255, 255);
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  background: -webkit-linear-gradient(-234deg, rgb(67,20,72) 4%, rgba(0,0,0,0) 4%), -webkit-linear-gradient(54deg, rgb(67,20,72) 4%, rgba(0,0,0,0) 4%), -webkit-linear-gradient(18deg, rgb(227,215,191) 8.5%, rgba(0,0,0,0) 8.5%), -webkit-linear-gradient(-198deg, rgb(227,215,191) 8.5%, rgba(0,0,0,0) 8.5%), -webkit-linear-gradient(-126deg, rgb(227,215,191) 7.5%, rgba(0,0,0,0) 7.5%), -webkit-linear-gradient(-54deg, rgb(227,215,191) 7.5%, rgba(0,0,0,0) 7.5%), -webkit-linear-gradient(-234deg, rgb(67,20,72) 4%, rgba(0,0,0,0) 4%), -webkit-linear-gradient(54deg, rgb(67,20,72) 4%, rgba(0,0,0,0) 4%), -webkit-linear-gradient(18deg, rgb(227,215,191) 8.5%, rgba(0,0,0,0) 8.5%), -webkit-linear-gradient(-198deg, rgb(227,215,191) 8.5%, rgba(0,0,0,0) 8.5%), -webkit-linear-gradient(-126deg, rgb(227,215,191) 7.5%, rgba(0,0,0,0) 7.5%), -webkit-linear-gradient(-54deg, rgb(227,215,191) 7.5%, rgba(0,0,0,0) 7.5%), rgb(67, 20, 72);
+  background: -moz-linear-gradient(324deg, rgb(67,20,72) 4%, rgba(0,0,0,0) 4%), -moz-linear-gradient(36deg, rgb(67,20,72) 4%, rgba(0,0,0,0) 4%), -moz-linear-gradient(72deg, rgb(227,215,191) 8.5%, rgba(0,0,0,0) 8.5%), -moz-linear-gradient(288deg, rgb(227,215,191) 8.5%, rgba(0,0,0,0) 8.5%), -moz-linear-gradient(216deg, rgb(227,215,191) 7.5%, rgba(0,0,0,0) 7.5%), -moz-linear-gradient(144deg, rgb(227,215,191) 7.5%, rgba(0,0,0,0) 7.5%), -moz-linear-gradient(324deg, rgb(67,20,72) 4%, rgba(0,0,0,0) 4%), -moz-linear-gradient(36deg, rgb(67,20,72) 4%, rgba(0,0,0,0) 4%), -moz-linear-gradient(72deg, rgb(227,215,191) 8.5%, rgba(0,0,0,0) 8.5%), -moz-linear-gradient(288deg, rgb(227,215,191) 8.5%, rgba(0,0,0,0) 8.5%), -moz-linear-gradient(216deg, rgb(227,215,191) 7.5%, rgba(0,0,0,0) 7.5%), -moz-linear-gradient(144deg, rgb(227,215,191) 7.5%, rgba(0,0,0,0) 7.5%), rgb(67, 20, 72);
+  background: linear-gradient(324deg, rgb(67,20,72) 4%, rgba(0,0,0,0) 4%), linear-gradient(36deg, rgb(67,20,72) 4%, rgba(0,0,0,0) 4%), linear-gradient(72deg, rgb(227,215,191) 8.5%, rgba(0,0,0,0) 8.5%), linear-gradient(288deg, rgb(227,215,191) 8.5%, rgba(0,0,0,0) 8.5%), linear-gradient(216deg, rgb(227,215,191) 7.5%, rgba(0,0,0,0) 7.5%), linear-gradient(144deg, rgb(227,215,191) 7.5%, rgba(0,0,0,0) 7.5%), linear-gradient(324deg, rgb(67,20,72) 4%, rgba(0,0,0,0) 4%), linear-gradient(36deg, rgb(67,20,72) 4%, rgba(0,0,0,0) 4%), linear-gradient(72deg, rgb(227,215,191) 8.5%, rgba(0,0,0,0) 8.5%), linear-gradient(288deg, rgb(227,215,191) 8.5%, rgba(0,0,0,0) 8.5%), linear-gradient(216deg, rgb(227,215,191) 7.5%, rgba(0,0,0,0) 7.5%), linear-gradient(144deg, rgb(227,215,191) 7.5%, rgba(0,0,0,0) 7.5%), rgb(67, 20, 72);
+  background-position: -70px 43px, 30px 43px, 30px 43px, -70px 43px, -70px 23px, 30px 23px, -20px 93px, 80px 93px, 80px 93px, -20px 93px, -20px 73px, 80px 73px;
+  -webkit-background-origin: padding-box;
+  background-origin: padding-box;
+  -webkit-background-clip: border-box;
+  background-clip: border-box;
+  -webkit-background-size: 100px 100px;
+  background-size: 100px 100px;
+    
+    position: absolute;
+    margin : 20px 30px 20px 5px;
     display:inline-block;
 }
 
 
-
-/* CSS for Sub pages  **************************************************/
-
-#SubContainer {
-    width:800px;
-    height:auto;
-    padding:1%;  
-    text-align: center;
-    display : inline-block;
-}
-
-/*
-#SubSubContainer {
-    width:760px;
-    height:auto;
-    padding : 10px;
-    text-align: center;
-    background-color: aquamarine;
-    display : inline-block;
-}
-*/
-
-#Sub_OneBox {
-    width:740px;
-    height:auto;
-
-    
-    /* border: 10px solid #a3c2c2; */
-    display : inline-block;
-}
-
-#Sub_OneBox_Left {
-    width : 380px;
-    height : auto;
-    float : left;
-    margin-left : 0px;
-}
-
-#Sub_OneBox_Right{
-    width : 300px;
-    height : auto;
-    margin : 20px;
-    padding: 10px;
-    font-family : Times New Romans; 
-    font-size: 18px;
-    float : left;
-}
-
-#Sub_TitleBox {
+.imageDiv {
     width:300px;
-    height:30px;
-    font-size:32px;
-    font-weight: bold;
-    font-family:Times New Romans; 
-    color:darkslategrey;
+    height: 200px;
+    position: absolute;
+    margin : 50px 20px 20px 20px;
+    background-image: url(../image/La_GettyCenter1.jpg);
+    
 }
 
-#Sub_DescBox {
-    width:680px;
-    height:auto;
-    margin:20px;
-    padding:5px;
-    color :darkslategrey;
 
-    font-size:14px;
-    font-family:Times New Romans; 
-    text-align:left;
+/* ribbon desing */
+.infinity {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  width: 212px;
+  height: 100px;
+  position: relative;
+  border: none;
+  font: normal 100%/normal Arial, Helvetica, sans-serif;
+  color: rgba(0,0,0,1);
+  -o-text-overflow: clip;
+  text-overflow: clip;
 }
 
-#Sub_DescBox_Right {
-    width:280px;
-    height:auto;
-    padding:5px;
-    color :darkslategrey;
-    font-size:14px;
-    font-family:Times New Romans; 
-    text-align:left;
+.infinity::before {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  border: 20px solid #1abc9c;
+  -webkit-border-radius: 50px 50px 0;
+  border-radius: 50px 50px 0;
+  font: normal 100%/normal Arial, Helvetica, sans-serif;
+  color: rgba(0,0,0,1);
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  text-shadow: none;
+  -webkit-transform: rotateZ(-45deg)   ;
+  transform: rotateZ(-45deg)   ;
 }
 
-#Button {
-    width:150px;
-    height:25px;
-    border : 1px solid #a3c2c2; 
-    background-color:#a3c2c2;
-    margin:auto;
-    text-align:center;
-    font-family:Times New Romans; 
-    float:center;
-    }
-
-
-/*--------------------
-
-#Sub_ThreeBox1{
-    background-color: cadetblue;
-    width : 255px;
-    height : 270px;
-    padding : 5px;
-    margin-top: 10px;
-    margin-left: 0px;
-    float : left;
+.infinity::after {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  content: "";
+  top: 0;
+  right: 0;
+  border: 20px solid #1abc9c;
+  -webkit-border-radius: 50px 50px 50px 0;
+  border-radius: 50px 50px 50px 0;
+  font: normal 100%/normal Arial, Helvetica, sans-serif;
+  color: rgba(0,0,0,1);
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  text-shadow: none;
+  -webkit-transform: rotateZ(45deg)   ;
+  transform: rotateZ(45deg)   ;
 }
-
-#Sub_MiniBox1 {
-    width : 360px;
-    height : 120px;
-    float : left;
-    margin : 20px;
-    padding: 10px;
-    font-family : Times New Romans; 
-    font-size: 18px;
-    }
