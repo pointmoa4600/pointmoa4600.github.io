@@ -1,89 +1,17 @@
-/* CSS for Common ******************************************************/
+/* ************************************************************************ */
+/* CSS for NYPL Project Code. MS Personal Website                           */
+/* ************************************************************************ */
+
+
+/* Section1. All pages Common : Background === */
 
 .mainContainer {
     width:100%;
     height:100%;
     margin: auto; 
-    text-align:center;
     padding:1%;
-    background-size : cover;
-    
-}
-
-/*******CSS for Decoration.START*******/
-
-div div div a {color : white;}
-
-
-a {text-decoration: none;}
-
-a:link {text-decoration: none;}
-
-a:visited {text-decoration: none;}
-
-a:active {color:hotpink;}
-
-/*li:hover {color:hotpink;} */
-
-.MenuFontColor {    
-    color :cadetblue;
-    font-size : 16px;
-   /* font-family:Times New Roman; */
-    font-family: cursive;
-    
-}
-
-.ButtonFontColor {
-    color : white;
-    font-size : 14px;        
-    font-family:Times New Roman;
-    vertical-align: middle;
-} 
-
-.frame {
-    border:5px solid darkslategray;
-}
-
-.border_style1 {
-    border: 5px solid white;
-    /* border: 10px dotted darkcyan; 
-	box-shadow: inset 0 -3px 0 0 darkcyan, 0 3px 0 0 darkcyan; */
-}
-
-.hr_style1 {
-    width:990px; 
-    margin:auto;
-    height: 6px;
-	background: url(http://ibrahimjabbari.com/english/images/hr-12.png) repeat-x 0 0;
-    border: 0;    
-}
-
-.hr_style2 {
-    width:990px; 
-    margin:auto;
-    border-top: 1px solid #8c8b8b; 
-}
-
-.hr_style3 {
-    width:990px; 
-    margin:auto;
-    height: 12px;
-    border: 0;
-    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
-}
-
-/*******CSS for Decoration.END*******/
-
-
-/*******CSS for Header & Footer.START*******/
-
-.menuContainer {
-    width:985px;
-    height:200px; 
-    margin: auto;
-    padding:1%;  
     text-align:center;
-    display:inline-block;
+    background-size : cover;    
 }
 
 #dotted {
@@ -97,6 +25,18 @@ a:active {color:hotpink;}
     background-size: 3px 3px;
   }
 
+
+/* Section2.Header & Footer ================== */
+
+.menuContainer {
+    width:985px;
+    height:200px; 
+    margin: auto;
+    padding:1%;  
+    text-align:center;
+    display:inline-block;
+}
+
 .titleBox {
     width:985px;
     height:150px;
@@ -104,7 +44,6 @@ a:active {color:hotpink;}
     margin:auto;
     font-size: 72px;
     font-weight:bolder; 
-    /*  font-family:Times New Roman, Georgia, Serif;  */
     font-family: 'Kaushan Script', cursive;
     color:darkslategrey; 
     text-align:center; 
@@ -130,6 +69,7 @@ li {
     color:darkgray;
     font-size:12px;
 }
+
 .bottomContainer {
     width:985px;
     height:200px;
@@ -138,13 +78,11 @@ li {
     padding:1%;
 }
 
-
-/*******CSS for Header & Footer.END******************************************************/
-
+/* Section2.Header & Footer.END -------------- */
 
 
 
-/*******CSS for Main page.START*******/
+/* Section3.index.html page ================== */
 
 .Main_OneBox {
     width:1000px;
@@ -197,7 +135,6 @@ li {
     background-repeat: no-repeat;
 }
 
-
 .Main_LeftBox {
     width : 480px;
     height : 270px;
@@ -216,11 +153,12 @@ li {
     float : left;
     display:inline-block;
 }
-/*******CSS for Main page.END******************************************************/
+
+/* Section3.index.html page.END -------------- */
 
 
 
-/*******CSS for Sub pages.START*******/
+/* Section4.SanDiego.html, LosAngeles page === */
 
 .SubContainer {
     width:1000px;
@@ -236,7 +174,6 @@ li {
     padding-top : 30px;   
     display : inline-block;
 }
-
 
 .Sub_TitleBox {
     width:850px;
@@ -302,7 +239,6 @@ li {
     margin-left : 0px;
 }
 
-
 .Button {
     display: inline-block;
     -webkit-box-sizing: content-box;
@@ -329,117 +265,70 @@ li {
     background: #ffffff;
 }
 
+/* Section4.SanDiego.html, LosAngeles page.END */
 
-/* wave design */
-#BottomPattern {
-    background: linear-gradient(#ffffff 50%, rgba(255,255,255,0) 0) 0 0,
-radial-gradient(circle closest-side, #FFFFFF 53%, rgba(255,255,255,0) 0) 0 0,
-radial-gradient(circle closest-side, #FFFFFF 50%, rgba(255,255,255,0) 0) 55px 0 #48B;
-background-size:110px 200px;
-background-repeat:repeat-x;
-    width:980px;
-    height:200px;
+
+
+/* Section5.Common Decorative css ============ */
+
+div div div a {color : white;}
+
+a {text-decoration: none;}
+
+a:link {text-decoration: none;}
+
+a:visited {text-decoration: none;}
+
+a:active {color:#FFAE00;}
+
+.MenuFontColor {    
+    color :cadetblue;
+    font-size : 16px;
+    font-family: cursive;
 }
 
-/*******CSS for Sub pages.END******************************************************/
+.ButtonFontColor {
+    color : white;
+    font-size : 14px;        
+    font-family:Times New Roman;
+    vertical-align: middle;
+} 
 
-
-
-
-/* extra page ===========*/
-.enjoy-css {
-  -webkit-box-sizing: content-box;
-  -moz-box-sizing: content-box;
-  box-sizing: content-box;
-  width: 800px;
-  height: auto;
-  border: none;
-  font: normal 100%/normal Arial, Helvetica, sans-serif;
-  color: rgb(255, 255, 255);
-  -o-text-overflow: clip;
-  text-overflow: clip;
-  background: -webkit-linear-gradient(-234deg, rgb(67,20,72) 4%, rgba(0,0,0,0) 4%), -webkit-linear-gradient(54deg, rgb(67,20,72) 4%, rgba(0,0,0,0) 4%), -webkit-linear-gradient(18deg, rgb(227,215,191) 8.5%, rgba(0,0,0,0) 8.5%), -webkit-linear-gradient(-198deg, rgb(227,215,191) 8.5%, rgba(0,0,0,0) 8.5%), -webkit-linear-gradient(-126deg, rgb(227,215,191) 7.5%, rgba(0,0,0,0) 7.5%), -webkit-linear-gradient(-54deg, rgb(227,215,191) 7.5%, rgba(0,0,0,0) 7.5%), -webkit-linear-gradient(-234deg, rgb(67,20,72) 4%, rgba(0,0,0,0) 4%), -webkit-linear-gradient(54deg, rgb(67,20,72) 4%, rgba(0,0,0,0) 4%), -webkit-linear-gradient(18deg, rgb(227,215,191) 8.5%, rgba(0,0,0,0) 8.5%), -webkit-linear-gradient(-198deg, rgb(227,215,191) 8.5%, rgba(0,0,0,0) 8.5%), -webkit-linear-gradient(-126deg, rgb(227,215,191) 7.5%, rgba(0,0,0,0) 7.5%), -webkit-linear-gradient(-54deg, rgb(227,215,191) 7.5%, rgba(0,0,0,0) 7.5%), rgb(67, 20, 72);
-  background: -moz-linear-gradient(324deg, rgb(67,20,72) 4%, rgba(0,0,0,0) 4%), -moz-linear-gradient(36deg, rgb(67,20,72) 4%, rgba(0,0,0,0) 4%), -moz-linear-gradient(72deg, rgb(227,215,191) 8.5%, rgba(0,0,0,0) 8.5%), -moz-linear-gradient(288deg, rgb(227,215,191) 8.5%, rgba(0,0,0,0) 8.5%), -moz-linear-gradient(216deg, rgb(227,215,191) 7.5%, rgba(0,0,0,0) 7.5%), -moz-linear-gradient(144deg, rgb(227,215,191) 7.5%, rgba(0,0,0,0) 7.5%), -moz-linear-gradient(324deg, rgb(67,20,72) 4%, rgba(0,0,0,0) 4%), -moz-linear-gradient(36deg, rgb(67,20,72) 4%, rgba(0,0,0,0) 4%), -moz-linear-gradient(72deg, rgb(227,215,191) 8.5%, rgba(0,0,0,0) 8.5%), -moz-linear-gradient(288deg, rgb(227,215,191) 8.5%, rgba(0,0,0,0) 8.5%), -moz-linear-gradient(216deg, rgb(227,215,191) 7.5%, rgba(0,0,0,0) 7.5%), -moz-linear-gradient(144deg, rgb(227,215,191) 7.5%, rgba(0,0,0,0) 7.5%), rgb(67, 20, 72);
-  background: linear-gradient(324deg, rgb(67,20,72) 4%, rgba(0,0,0,0) 4%), linear-gradient(36deg, rgb(67,20,72) 4%, rgba(0,0,0,0) 4%), linear-gradient(72deg, rgb(227,215,191) 8.5%, rgba(0,0,0,0) 8.5%), linear-gradient(288deg, rgb(227,215,191) 8.5%, rgba(0,0,0,0) 8.5%), linear-gradient(216deg, rgb(227,215,191) 7.5%, rgba(0,0,0,0) 7.5%), linear-gradient(144deg, rgb(227,215,191) 7.5%, rgba(0,0,0,0) 7.5%), linear-gradient(324deg, rgb(67,20,72) 4%, rgba(0,0,0,0) 4%), linear-gradient(36deg, rgb(67,20,72) 4%, rgba(0,0,0,0) 4%), linear-gradient(72deg, rgb(227,215,191) 8.5%, rgba(0,0,0,0) 8.5%), linear-gradient(288deg, rgb(227,215,191) 8.5%, rgba(0,0,0,0) 8.5%), linear-gradient(216deg, rgb(227,215,191) 7.5%, rgba(0,0,0,0) 7.5%), linear-gradient(144deg, rgb(227,215,191) 7.5%, rgba(0,0,0,0) 7.5%), rgb(67, 20, 72);
-  background-position: -70px 43px, 30px 43px, 30px 43px, -70px 43px, -70px 23px, 30px 23px, -20px 93px, 80px 93px, 80px 93px, -20px 93px, -20px 73px, 80px 73px;
-  -webkit-background-origin: padding-box;
-  background-origin: padding-box;
-  -webkit-background-clip: border-box;
-  background-clip: border-box;
-  -webkit-background-size: 100px 100px;
-  background-size: 100px 100px;
-    
-    position: absolute;
-    margin : 20px 30px 20px 5px;
-    display:inline-block;
+.frame {
+    border:5px solid darkslategray;
 }
 
-
-.imageDiv {
-    width:300px;
-    height: 200px;
-    position: absolute;
-    margin : 50px 20px 20px 20px;
-    background-image: url(../image/La_GettyCenter1.jpg);
-    
+.border_style1 {
+    border: 5px solid white;
+    /* border: 10px dotted darkcyan; 
+	box-shadow: inset 0 -3px 0 0 darkcyan, 0 3px 0 0 darkcyan; */
 }
 
-
-/* ribbon desing */
-.infinity {
-  -webkit-box-sizing: content-box;
-  -moz-box-sizing: content-box;
-  box-sizing: content-box;
-  width: 212px;
-  height: 100px;
-  position: relative;
-  border: none;
-  font: normal 100%/normal Arial, Helvetica, sans-serif;
-  color: rgba(0,0,0,1);
-  -o-text-overflow: clip;
-  text-overflow: clip;
+.hr_style1 {
+    width:990px; 
+    margin:auto;
+    height: 6px;
+	background: url(http://ibrahimjabbari.com/english/images/hr-12.png) repeat-x 0 0;
+    border: 0;    
 }
 
-.infinity::before {
-  -webkit-box-sizing: content-box;
-  -moz-box-sizing: content-box;
-  box-sizing: content-box;
-  width: 60px;
-  height: 60px;
-  position: absolute;
-  content: "";
-  top: 0;
-  left: 0;
-  border: 20px solid #1abc9c;
-  -webkit-border-radius: 50px 50px 0;
-  border-radius: 50px 50px 0;
-  font: normal 100%/normal Arial, Helvetica, sans-serif;
-  color: rgba(0,0,0,1);
-  -o-text-overflow: clip;
-  text-overflow: clip;
-  text-shadow: none;
-  -webkit-transform: rotateZ(-45deg)   ;
-  transform: rotateZ(-45deg)   ;
+.hr_style2 {
+    width:990px; 
+    margin:auto;
+    border-top: 1px solid #8c8b8b; 
 }
 
-.infinity::after {
-  -webkit-box-sizing: content-box;
-  -moz-box-sizing: content-box;
-  box-sizing: content-box;
-  width: 60px;
-  height: 60px;
-  position: absolute;
-  content: "";
-  top: 0;
-  right: 0;
-  border: 20px solid #1abc9c;
-  -webkit-border-radius: 50px 50px 50px 0;
-  border-radius: 50px 50px 50px 0;
-  font: normal 100%/normal Arial, Helvetica, sans-serif;
-  color: rgba(0,0,0,1);
-  -o-text-overflow: clip;
-  text-overflow: clip;
-  text-shadow: none;
-  -webkit-transform: rotateZ(45deg)   ;
-  transform: rotateZ(45deg)   ;
+.hr_style3 {
+    width:990px; 
+    margin:auto;
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
 }
+
+/* Section5.Common Decorative css ------------ */
+
+
+/* ************************************************************************ */
+/* CSS for NYPL Project Code. MS Personal Website.END                       */
+/* ************************************************************************ */
