@@ -3,6 +3,9 @@
 /* ************************************************************************ */
 
 
+/* bar style is from http://ibrahimjabbari.com/english/images/hr-12.png */
+/* dotted pattern on background is from http://codepen.io/aleprieto/pen/nAmIy */
+
 /* Section1. All pages Common : Background === */
 
 .mainContainer {
@@ -49,6 +52,7 @@
     text-align:center; 
     float:left;
 }
+
 
 .menuBox {
     width:985px;
@@ -106,9 +110,10 @@ li {
     background-color:brown;
 }
 
-#Color_blanchedalmond {
-    background-color:blanchedalmond;
+#Color_mustrad {
+    background-color:#e6e600;
 }
+
 
 #Image_OldTown {
     background-image: url(../image/BackImage_SanOldTown.jpg);
@@ -139,7 +144,7 @@ li {
     width : 480px;
     height : 270px;
     float : left;
-    margin : 0px;`````
+    margin : 0px;
 }
 
 .Main_RightBox {
